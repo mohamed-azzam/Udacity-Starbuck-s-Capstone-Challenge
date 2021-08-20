@@ -1,4 +1,4 @@
-![starbucks](.res/img/starbucks.jpg)
+![starbucks](docs/assets/images/starbucks.jpg)
 
 ## Introduction
 
@@ -58,100 +58,100 @@ After make assessing to datasets i realize this observation
 
 After solving the observation problem we need to get offer data 
 
-![image-20210820113834664](/home/mazzam/snap/typora/39/.config/Typora/typora-user-images/image-20210820113834664.png)
+![image-20210820113834664](docs/assets/images/image-20210820113834664.png)
 
 Now we need to define if the offer is successful or not and it can success if a customer completed an offer and viewed it and if not viewed the offer become not success offer
 
-![image-20210820114146317](/home/mazzam/snap/typora/39/.config/Typora/typora-user-images/image-20210820114146317.png)
+![image-20210820114146317](docs/assets/images/image-20210820114146317.png)
 
 The final step in Data Wrangling is to merge dataset on `customer_id` and `offer_id` 
 
-![image-20210820114322726](/home/mazzam/snap/typora/39/.config/Typora/typora-user-images/image-20210820114322726.png)
+![image-20210820114322726](docs/assets/images/image-20210820114322726.png)
 
 ## Exploratory Analysis
 
 ### Gender Distribution
 
-![img](.res/img/Starbucks_Capstone_notebook_97_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_97_0.png)
 
 > we can notice that most of users are Male
 
 ### Income Distribution
 
-![img](.res/img/Starbucks_Capstone_notebook_100_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_100_0.png)
 
 > We can notice that the most income between $50000 \to 70000$
 
 ### Age Distribution
 
-![img](.res/img/Starbucks_Capstone_notebook_103_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_103_0.png)
 
 > We can notice that the most age is between 40 to 75
 
 ### New Member based of Year
 
-![img](.res/img/Starbucks_Capstone_notebook_106_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_106_0.png)
 
 > 2017 has the highest number of new members.
 
 ### New Member based of Month
 
-![img](.res/img/Starbucks_Capstone_notebook_109_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_109_0.png)
 
 > We can notice grow in member based on month is almost equal
 
 ### New Member based on Year and Gender
 
-![img](.res/img/Starbucks_Capstone_notebook_112_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_112_0.png)
 
 > We can notice that most of new member are Male
 
 ### Income based on Gender
 
-![img](.res/img/Starbucks_Capstone_notebook_115_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_115_0.png)
 
-![img](.res/img/Starbucks_Capstone_notebook_116_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_116_0.png)
 
 > We can notice that the count Female gender is the highest one
 
 ### Event Distribution
 
-![img](.res/img/Starbucks_Capstone_notebook_120_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_120_0.png)
 
 > We can notice that most of offers are just received and viewed
 
 ### Distribution of Successful offers
 
-![img](.res/img/Starbucks_Capstone_notebook_127_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_127_0.png)
 
 > The Percentage of failure offers greater than success offers
 
 ## Distribution of Success based on offer type
 
-![img](.res/img/Starbucks_Capstone_notebook_130_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_130_0.png)
 
 > There are a lot of offers need to review because is not success like offer_8.
 > offer_7, offer_9, offer_6 have a successful story
 
 ### Distribution of Offers based on Gender
 
-![img](.res/img/Starbucks_Capstone_notebook_133_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_133_0.png)
 
 > We can notice that male have more offers then female and that is normal because the count of male is more than female
 
 ### Distribution of Success based on Gender
 
-![img](.res/img/Starbucks_Capstone_notebook_136_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_136_0.png)
 
 ### Distribution of of Success offers based on Gender
 
-![img](.res/img/Starbucks_Capstone_notebook_139_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_139_0.png)
 
 > We can notice that the success offer in female is more than the other despite of the male in data set is more than female
 
 ### Income Distribution Based on Success
 
-![img](.res/img/Starbucks_Capstone_notebook_142_0.png)
+![img](docs/assets/images/Starbucks_Capstone_notebook_142_0.png)
 
 > We can notice that the income does not have any role in the reject offers
 
@@ -161,17 +161,17 @@ In this step i will build a model that **predicts whether or not someone will re
 
 **First** i will prepare the dataset and create `X` and `y` data
 
-![image-20210820115508829](.res/img/image-20210820115508829.png)
+![image-20210820115508829](docs/assets/images/image-20210820115508829.png)
 
 **Second** create ML Pipeline
 
-![image-20210820115623838](/home/mazzam/snap/typora/39/.config/Typora/typora-user-images/image-20210820115623838.png)
+![image-20210820115623838](docs/assets/images/image-20210820115623838.png)
 
 You realize from the above image that i standardize the dataset fist and then use Logistic Regression and classification model
 
 **Third** Check the Accuracy
 
-![img](.res/img/Starbucks_Capstone_notebook_163_0.png) 
+![img](docs/assets/images/Starbucks_Capstone_notebook_163_0.png) 
 
 You can notice from the above image the accuracy is 0.99 and precision is 0.98 and recall is 1 and F1-score is 0.99 
 
