@@ -60,6 +60,27 @@ Here is the schema and explanation of each variable in the files:
 * `time` (`int`) - time in hours since start of test. The data begins at time `t=0`
 * `value` - (`dict of strings`) - either an offer id or transaction amount depending on the record
 
+## File Structure 
+
+```txt
+
+├── assets
+├── data
+│   ├── clean_portfolio.csv
+│   ├── clean_profile.csv
+│   ├── clean_transcript.csv
+│   ├── overall_df.csv
+│   ├── portfolio.json
+│   ├── profile.json
+│   └── transcript.json
+├── README.md
+├── Starbucks_Capstone_notebook.html
+└── Starbucks_Capstone_notebook.ipynb
+
+```
+
+
+
 ## Results
 
 After using Logistic Regression i got this result 
