@@ -72,86 +72,86 @@ The final step in Data Wrangling is to merge dataset on `customer_id` and `offer
 
 ### Gender Distribution
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_97_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_97_0.png)
 
 > we can notice that most of users are Male
 
 ### Income Distribution
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_100_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_100_0.png)
 
 > We can notice that the most income between $50000 \to 70000$
 
 ### Age Distribution
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_103_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_103_0.png)
 
 > We can notice that the most age is between 40 to 75
 
 ### New Member based of Year
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_106_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_106_0.png)
 
 > 2017 has the highest number of new members.
 
 ### New Member based of Month
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_109_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_109_0.png)
 
 > We can notice grow in member based on month is almost equal
 
 ### New Member based on Year and Gender
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_112_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_112_0.png)
 
 > We can notice that most of new member are Male
 
 ### Income based on Gender
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_115_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_115_0.png)
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_116_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_116_0.png)
 
 > We can notice that the count Female gender is the highest one
 
 ### Event Distribution
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_120_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_120_0.png)
 
 > We can notice that most of offers are just received and viewed
 
 ### Distribution of Successful offers
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_127_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_127_0.png)
 
 > The Percentage of failure offers greater than success offers
 
 ## Distribution of Success based on offer type
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_130_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_130_0.png)
 
 > There are a lot of offers need to review because is not success like offer_8.
 > offer_7, offer_9, offer_6 have a successful story
 
 ### Distribution of Offers based on Gender
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_133_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_133_0.png)
 
 > We can notice that male have more offers then female and that is normal because the count of male is more than female
 
 ### Distribution of Success based on Gender
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_136_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_136_0.png)
 
 ### Distribution of of Success offers based on Gender
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_139_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_139_0.png)
 
 > We can notice that the success offer in female is more than the other despite of the male in data set is more than female
 
 ### Income Distribution Based on Success
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_142_0.png)
+![img](.res/img/Starbucks_Capstone_notebook_142_0.png)
 
 > We can notice that the income does not have any role in the reject offers
 
@@ -161,7 +161,7 @@ In this step i will build a model that **predicts whether or not someone will re
 
 **First** i will prepare the dataset and create `X` and `y` data
 
-![image-20210820115508829](/home/mazzam/snap/typora/39/.config/Typora/typora-user-images/image-20210820115508829.png)
+![image-20210820115508829](.res/img/image-20210820115508829.png)
 
 **Second** create ML Pipeline
 
@@ -171,7 +171,7 @@ You realize from the above image that i standardize the dataset fist and then us
 
 **Third** Check the Accuracy
 
-![img](file:///home/mazzam/Projects/Udacity-Starbuck-s-Capstone-Challenge/assets/Starbucks_Capstone_notebook_163_0.png) 
+![img](.res/img/Starbucks_Capstone_notebook_163_0.png) 
 
 You can notice from the above image the accuracy is 0.99 and precision is 0.98 and recall is 1 and F1-score is 0.99 
 
