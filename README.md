@@ -83,7 +83,4 @@ Here is the schema and explanation of each variable in the files:
 
 ## Results
 
-After using Logistic Regression i got this result 
-
-![img](assets/Starbucks_Capstone_notebook_163_0.png)
-
+The main findings of this project can be found in my medium post about the project [here](https://mohamed-azzam.github.io/Udacity-Starbuck-s-Capstone-Challenge/). 
