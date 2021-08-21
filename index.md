@@ -164,7 +164,9 @@ In this project i will use Logistic Regression to classify if the customer will 
 
 ## Implementation And Refinement
 
-In this step i will build a model that **predicts whether or not someone will respond to an offer**.
+At the beginning i faced a big problem to understand the datasets and extract features that help to build a good model and in data preprocessing i faced a little difficult to begin with, and is going to improve over time.
+
+In the following steps i will build a model that **predicts whether or not someone will respond to an offer**.
 
 **First** i will prepare the dataset and create `X` and `y` data
 
@@ -188,4 +190,8 @@ You can notice from the above image the accuracy is 0.99 and precision is 0.98 a
 
 ## Conclusion
 
-By using Logistic Regression algorithm with hyper-parameters `max_iter=100,penalty='l1', solver='liblinear'`  as classification for the offers if it will accept or reject i can achieve accuracy with 0.992   
+At the beginning i understood the project overview and define the problem that i should solve it and it is about prediction if the customer will accept or reject the offer and then i got a good look about the datasets and his type and the features that i need it to build a good model and define problems in dataset that i should fix it and then make data visualization to get a deep look in datasets and then build a model by using Logistic Regression algorithm with hyper-parameters `max_iter=100,penalty='l1', solver='liblinear'`  as classification for the offers if it will accept or reject i can achieve accuracy with 0.992   
+
+## Improvement
+
+For the predictive models, we were limited by the number of features we had for the customer. If more features were present we could find more optimal demographics and could aid in better classification results.
