@@ -181,7 +181,11 @@ In this step i will build a model that **predicts whether or not someone will re
 
 ![image-20210820115623838](docs/assets/images/image-20210820115623838.png)
 
-You realize from the above image that i standardize the dataset fist and then use Logistic Regression and classification model
+![image-20210820115623838](docs/assets/images/2021-08-21_03-09.png)
+
+![image-20210821031155880](docs/assets/images/image-20210821031155880.png)
+
+You realize from the above image that i standardize the dataset first and then use Logistic Regression as classification algorithm and then try to find the best parameters using grid search that help to achieve score 0.99 
 
 **Third** Check the Accuracy
 
