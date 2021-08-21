@@ -1,6 +1,6 @@
 ![starbucks](docs/assets/images/starbucks.jpg)
 
-## Introduction
+## Project Overview
 
 This project is my Capstone Challenge for Udacity’s Data Scientist Nanodegree. The project is in collaboration with Starbucks where we were given simulated data that mimics customer behavior on the Starbucks rewards app. The offer could be purely informational or it could include a discount such as BOGO (buy one get one free).
 
@@ -12,38 +12,27 @@ For this project, we received 3 datasets —
 2. **Profile** — dataset containing information regarding customer demographics including age, gender, income, and the date they created an account for Starbucks Rewards.
 3. **Transcript** — dataset containing all the instances when a customer made a purchase, viewed an offer, received an offer, and completed an offer. It's important to note that if a customer completed an offer but never actually viewed the offer, then this does not count as a successful offer as the offer could not have changed the outcome.
 
-## Project Goal
+## Problem Statement
 
-The goal of the project is build a model that **predicts whether or not someone will respond to an offer.** 
+Starbucks want to know before send the offer if the customer will accept or reject it so the goal of the project is build a model that **predicts whether or not someone will respond to an offer.** 
 
-## Performance Measure
+## Metrics
 
 I will use the following metrics to measure the accuracy of classification and explain why i used it
 
-- *Confusion Matrix* :  specific table layout that allows visualization of the performance of an algorithm with 4 different combinations of predicted and actual values.
-- *Accuracy* : reflects how close a measurement is to a known or accepted value
-- *Precision* : reflects how many selected item are relevant
-- *Recall* : reflects how many relevant item are selected
-- *F1 Score* : F-score or F-measure is a measure of a test's accuracy. It is calculated from the precision and recall of the test,
+- *Confusion Matrix* : help me to specific table layout that allows visualization of the performance of an algorithm with 4 different combinations of predicted and actual values.
+- *Accuracy* : help me to show how close a measurement is to a known or accepted value
+- *Precision* : help me to show how many selected item are relevant
+- *Recall* : help me to show how many relevant item are selected
+- *F1 Score* : F-score or F-measure is a measure of a test's accuracy and help me to calculate accuracy from the precision and recall of the test,
 
-## Classification Algorithms
-
-In this project i will use Logistic Regression to classify if the customer will accept or reject the offer
-
-## The Steps of Project
-
-1. **Assessing Datasets**
-2. **Data Wrangling & Feature Engineering**
-3. **Exploratory Analysis**
-4. **Modeling** 
-
-## Assessing Datasets
+## Data Exploration
 
 After make assessing to datasets i realize this observation 
 
 **Profile Dataset**
 
-- [x]  Convert the type of`became_member_on` column to date
+- [x] Convert the type of`became_member_on` column to date
 - [x] `gender` column has 2175 missing value with percentage 12.79 % so we need to remove it form dataset
 - [x] `income`column has 2175 missing value with percentage 12.79 %s o we need to remove it form dataset
 - [x] `age` column has 2175 persons have 118 years it seem to be outliers with percentage 12.79 %. we can also notice that is located in same row with `gender` and `income` that have `NaN` value
@@ -55,7 +44,7 @@ After make assessing to datasets i realize this observation
 
 **Portfolio Dataset**
 
-- [x]    `id` column change his name to `offer_id`
+- [x] `id` column change his name to `offer_id`
 - [x] `channels` column need to encode
 - [x] `offer_type` column need to encode
 
@@ -68,7 +57,7 @@ After make assessing to datasets i realize this observation
 - [x] `value` column extract `offer_id` and `amount`
 - [x] `event` column need to encode
 
-## Data Wrangling & Feature Engineering
+## Data Preprocessing
 
 After solving the observation problem we need to get offer data 
 
@@ -82,7 +71,7 @@ The final step in Data Wrangling is to merge dataset on `customer_id` and `offer
 
 ![image-20210820114322726](docs/assets/images/image-20210820114322726.png)
 
-## Exploratory Analysis
+## Data Visualization
 
 ### Gender Distribution
 
@@ -140,7 +129,7 @@ The final step in Data Wrangling is to merge dataset on `customer_id` and `offer
 
 > The Percentage of failure offers greater than success offers
 
-## Distribution of Success based on offer type
+### Distribution of Success based on offer type
 
 ![img](docs/assets/images/Starbucks_Capstone_notebook_130_0.png)
 
@@ -169,7 +158,11 @@ The final step in Data Wrangling is to merge dataset on `customer_id` and `offer
 
 > We can notice that the income does not have any role in the reject offers
 
-## Modeling
+## Classification Algorithms
+
+In this project i will use Logistic Regression to classify if the customer will accept or reject the offer
+
+## Implementation And Refinement
 
 In this step i will build a model that **predicts whether or not someone will respond to an offer**.
 
@@ -187,7 +180,7 @@ In this step i will build a model that **predicts whether or not someone will re
 
 You realize from the above image that i standardize the dataset first and then use Logistic Regression as classification algorithm and then try to find the best parameters using grid search that help to achieve score 0.99 
 
-**Third** Check the Accuracy
+## Model Evaluation and Validation
 
 ![img](docs/assets/images/Starbucks_Capstone_notebook_163_0.png) 
 
