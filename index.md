@@ -16,6 +16,16 @@ For this project, we received 3 datasets —
 
 The goal of the project is build a model that **predicts whether or not someone will respond to an offer.** 
 
+## Performance Measure
+
+I will use the following metrics to measure the accuracy of classification and explain why i used it
+
+- *Confusion Matrix* :  specific table layout that allows visualization of the performance of an algorithm with 4 different combinations of predicted and actual values.
+- *Accuracy* : reflects how close a measurement is to a known or accepted value
+- *Precision* : reflects how many selected item are relevant
+- *Recall* : reflects how many relevant item are selected
+- *F1 Score* : F-score or F-measure is a measure of a test's accuracy. It is calculated from the precision and recall of the test,
+
 ## The Steps of Project
 
 1. **Assessing Datasets**
@@ -30,9 +40,9 @@ After make assessing to datasets i realize this observation
 **Profile Dataset**
 
 - [x]  Convert the type of`became_member_on` column to date
-- [x] `gender` column has $2175$ missing value so we need to remove it form dataset
-- [x] `income`column has $2175$ missing value so we need to remove it form dataset
-- [x] `age` column has $2175$ persons have $118$ years it seem to be outliers. we can also notice that is located in same row with `gender` and `income` that have `NaN` value
+- [x] `gender` column has 2175 missing value so we need to remove it form dataset
+- [x] `income`column has 2175​ missing value so we need to remove it form dataset
+- [x] `age` column has 2175​ persons have 118 years it seem to be outliers. we can also notice that is located in same row with `gender` and `income` that have `NaN` value
 - [x] `id` column change his name to `customer_id`
 - [x] `gender` column need to encode
 - [x] `become_member_on` column need to encode
@@ -80,7 +90,7 @@ The final step in Data Wrangling is to merge dataset on `customer_id` and `offer
 
 ![img](docs/assets/images/Starbucks_Capstone_notebook_100_0.png)
 
-> We can notice that the most income between $50000 \to 70000$
+> We can notice that the most income between 50000 : 70000​
 
 ### Age Distribution
 
