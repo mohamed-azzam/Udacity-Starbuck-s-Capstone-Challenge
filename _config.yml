@@ -2,8 +2,3 @@
 theme: jekyll-theme-midnight
 title: "Udacity Starbuck's Capstone Challenge"
 description: "Build a model that predicts whether or not someone will respond to an offer"
-=======
-theme: jekyll-theme-slate
-title: "Udacity Starbuck's Capstone Challenge"
-description: "Build a model that predicts whether or not someone will respond to an offer"
->>>>>>> b60c4fc4023baa9000bffdf5c6f5ed056fe7cce5
