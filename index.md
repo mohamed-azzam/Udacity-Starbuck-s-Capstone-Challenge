@@ -26,6 +26,10 @@ I will use the following metrics to measure the accuracy of classification and e
 - *Recall* : reflects how many relevant item are selected
 - *F1 Score* : F-score or F-measure is a measure of a test's accuracy. It is calculated from the precision and recall of the test,
 
+## Classification Algorithms
+
+In this project i will use Logistic Regression to classify if the customer will accept or reject the offer
+
 ## The Steps of Project
 
 1. **Assessing Datasets**
@@ -40,9 +44,9 @@ After make assessing to datasets i realize this observation
 **Profile Dataset**
 
 - [x]  Convert the type of`became_member_on` column to date
-- [x] `gender` column has 2175 missing value so we need to remove it form dataset
-- [x] `income`column has 2175​ missing value so we need to remove it form dataset
-- [x] `age` column has 2175​ persons have 118 years it seem to be outliers. we can also notice that is located in same row with `gender` and `income` that have `NaN` value
+- [x] `gender` column has 2175 missing value with percentage 12.79 % so we need to remove it form dataset
+- [x] `income`column has 2175 missing value with percentage 12.79 %s o we need to remove it form dataset
+- [x] `age` column has 2175 persons have 118 years it seem to be outliers with percentage 12.79 %. we can also notice that is located in same row with `gender` and `income` that have `NaN` value
 - [x] `id` column change his name to `customer_id`
 - [x] `gender` column need to encode
 - [x] `become_member_on` column need to encode
