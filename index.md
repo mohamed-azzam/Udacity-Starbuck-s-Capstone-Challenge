@@ -193,3 +193,6 @@ You realize from the above image that i standardize the dataset first and then u
 
 You can notice from the above image the accuracy is 0.99 and precision is 0.98 and recall is 1 and F1-score is 0.99 
 
+## Conclusion
+
+By using Logistic Regression algorithm with hyper-parameters `max_iter=100,penalty='l1', solver='liblinear'`  as classification for the offers if it will accept or reject i can achieve accuracy with 0.992   
